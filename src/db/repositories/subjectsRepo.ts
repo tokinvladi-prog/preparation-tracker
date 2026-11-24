@@ -2,7 +2,7 @@ import { db } from '../schema';
 import type { Subject } from '../types';
 
 export const subjectsRepo = {
-  listAll: () => db.subjects.orderBy('order').toArray,
+  listAll: () => db.subjects.orderBy('order').toArray(),
   listActive: () =>
     db.subjects
       .orderBy('order')

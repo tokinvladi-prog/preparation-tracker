@@ -1,6 +1,6 @@
 import { useSubjects } from '../features/subjects/hooks';
 import SortableSubjectItem from '../features/subjects/SortableSubjectItem';
-import Button from '../shared/ui/Button';
+import { Button } from '../shared/ui/Button';
 
 export default function SubjectsPage() {
   const subjects = useSubjects();
