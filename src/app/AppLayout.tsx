@@ -72,7 +72,7 @@ export default function AppLayout() {
           </div>
         </nav>
       </header>
-      <main>
+      <main className="flex-1">
         <Outlet />
       </main>
     </div>
